@@ -29,77 +29,187 @@
             font-family: "Bebas Neue", serif;
 
         }
+
+        /* .bg-img{
+            background-image: url(shapes/Group_33094_1.png);
+            width: 200px;
+            height: 100px;
+        } */
     </style>
 </head>
 
 <body class="roboto-font">
     <!-- header section start here -->
-    <header class="md:container mx-auto">
+    <header class="md:container mx-auto  bg-white shadow-xl">
+        <!-- navbar  -->
         <nav class="p-4 hidden lg:block">
             <div class="flex justify-between">
                 <div>
 
                 </div>
                 <div>
-                    <ul class="flex gap-7 font-semibold">
-                        <li><a href=""> About</a></li>
-                        <li><a href=""> Work</a></li>
+                    <ul class="flex mr-28 gap-7 font-semibold">
+                        <li><a class="" href="#about"> About</a></li>
+                        <li><a href="#work"> Work</a></li>
                         <li><a href=""> Protfolio</a></li>
                         <li><a href=""> Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
+        <!-- navbar end -->
+
+
         <!-- banner  -->
-        
-            <div class="lg:flex items-center text-center lg:text-left justify-around relative my-16">
-               
-                <!-- banner title -->
-                <div class=" space-y-7">
-                    <h2 class="text-6xl md:text-7xl font-bold bebas-neue-font ">Hello, I'm <br>
-                        <span class="text-[#FF8367]">Rob Davidson</span></h2>
-                    <p class=" mx-auto font-bold text-gray-500  ">A full stack allaround designer that placerat
-                        in massa consectetur</p>
-                    <button class="px-8 py-3 bg-red-400 rounded-lg font-bold text-white">Hire Me</button>
 
-                </div>
-                <!-- banner title end -->
+        <div class="lg:flex items-center text-center lg:text-left justify-around relative my-16">
 
-                <!-- banner img -->
-                <div class="lg:max-w-[465px] mx-auto lg:mx-0 relative">
-                    <img class="" src="images/do not use this pic.png" alt="Album" />
-                    
-                    <div class="bg-red-400 w-20 h-20 hidden lg:block rounded-full absolute -right-6 top-96 "></div>
-                    
-                </div>
-               
-                <!-- banner img -->
-                
+            <!-- banner title -->
+            <div class=" space-y-6">
+                <h2 class="text-6xl md:text-7xl font-bold bebas-neue-font ">Hello, I'm <br>
+                    <span class="text-[#FF8367]">Rob Davidson</span>
+                </h2>
+                <p class=" mx-auto font-bold text-gray-500  ">A full stack allaround designer that placerat
+                    in massa consectetur</p>
+                <button class="px-8 py-3 bg-red-400 rounded-lg font-bold text-white">Hire Me</button>
+
+            </div>
+            <!-- banner title end -->
+
+            <!-- banner img -->
+            <div class="max-w-[465px] mx-auto lg:mx-0 relative">
+                <img class="" src="images/do not use this pic.png" alt="Album" />
+
+                <div class="bg-red-400 w-20 h-20 hidden lg:block rounded-full absolute -right-6 top-96 "></div>
 
             </div>
 
+            <!-- banner img -->
 
-            
-               
-               
-               
+
+        </div>
+d
+        <!-- bannner -->
+        <!-- second banner section -->
+
+        <div class="lg:flex items-center text-center  lg:text-left  justify-around relative my-16">
+
+            <!-- banner title -->
+            <div class=" space-y-6 order-1 lg:w-1/4 mx-auto" id="about">
+                <h2 class="text-6xl md:text-7xl font-bold bebas-neue-font ">About</h2>
+                <p class=" mx-auto font-bold text-gray-500  ">Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <button class="px-8 py-3 bg-red-400 rounded-lg font-bold text-white">Download CV</button>
+
+            </div>
+            <!-- banner title end -->
+
+            <!-- banner img -->
+            <div class="max-w-[465px] mx-auto   relative">
+                <img class="" src="images/do not use this pic2.png" alt="Album" />
+
+
 
             </div>
 
+            <!-- banner img -->
+            <!-- section banner section end -->
 
-            
-        
+
+        </div>
+
+
+
+
+
+
     </header>
     <!-- header section end here -->
 
     <!-- main section start here -->
-    <main>
+    <main class="md:container mx-auto">
+        <!-- lastet working project section start -->
+        <section class="text-center my-16 " id="work">
+            <h1 class="text-6xl md:text-7xl font-bold bebas-neue-font"><span class="text-[#FF8367]">LASTET</span>
+                WORKING PROJECT</h1>
+            <!-- card -->
+            <div class="md:flex justify-evenly space-y-4 md:space-y-0 my-16">
+                <!-- card one -->
+                <div class="card bg-base-100 w-96 mx-auto shadow-xl">
 
+                    <figure>
+                        <img src="images/image 4.png" alt="This is my project images" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title font-bold">Power-x-gym (gym website)</h2>
+                        <p class="text-left text-gray-500">Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry.
+                        </p>
+                    </div>
+
+                </div>
+                <!-- card two -->
+                <div class="card bg-base-100 w-96  mx-auto shadow-xl">
+
+                    <figure>
+                        <img src="images/image 5.png" alt="This is my project images" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title font-bold">Creative Agency</h2>
+                        <p class="text-left text-gray-500">Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry.
+                        </p>
+                    </div>
+
+                </div>
+                <!-- card three -->
+                <div class="card bg-base-100 w-96 shadow-xl mx-auto">
+
+                    <figure>
+                        <img src="images/image 8.png" alt="This is my project images" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title font-bold">Hard Rock Music</h2>
+                        <p class="text-left text-gray-500">Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </section>
+        <!-- lastet working project section end -->
     </main>
     <!-- main section end here -->
 
     <!-- footer section start here -->
-    <footer>
+    <footer class="  my-16 text-center p-3 ">
+
+        <div
+            class="bg-[url('../shapes/Group_33094_1.png')]  bg-cover bg-no-repeat lg:w-1/2 my-6  h-40 mx-auto flex justify-around rounded-xl items-center">
+            <div>
+                <h1 class="text-white text-3xl lg:text-6xl font-bold">Work Inquiry</h1>
+            </div>
+            <div>
+                <button class="px-8 py-3 bg-red-400 rounded-lg font-bold text-white">Let's Chat</button>
+            </div>
+
+        </div>
+
+        <div class="my-16 space-y-8">
+            <p class="text-gray-500 mb-4">Stay connected</p>
+            <a class="text-2xl font-bold" href="">hello@design.com</a>
+            <div class="flex justify-center gap-4">
+                <img src="icons/image 6.png" alt="">
+                <img src="icons/Group 33059.png" alt="">
+                <img src="icons/image 7.png" alt="">
+            </div>
+
+        </div>
 
     </footer>
     <!-- footer section end here -->
